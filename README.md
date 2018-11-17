@@ -3,8 +3,8 @@ Posted by Clay Chester, October 5, 2017
 
 Do you use any free "learn to code" website to teach yourself programming? Clay used publicly available [survey data](https://github.com/freeCodeCamp/2016-new-coder-survey) taken by FreeCodeCamp, to understand the demographic of self-taught coders.
 
-## Insights
-
+## Data Analysis Insights
+- how post bootcamp employment status after coding bootcamp affects whether a participant will reccomend doing a coding bootcamp.
 
 <h2> About the Data </h2>
 
