@@ -33,7 +33,6 @@ JobYes = data_file[data_file.BootcampFullJobAfter == 1]
 JobNo = data_file[data_file.BootcampFullJobAfter == 0]
 RecYes = data_file[data_file.BootcampRecommend == 1]
 RecNo = data_file[data_file.BootcampRecommend == 0]
-"""is there a way to combine attributes using the variable names?"""
 RecYesJobYes = data_file[data_file.BootcampRecommend == 1][data_file.BootcampFullJobAfter == 1 ]
 RecNoJobYes = data_file[data_file.BootcampRecommend == 0][data_file.BootcampFullJobAfter == 1 ]
 RecYesJobNo = data_file[data_file.BootcampRecommend == 1][data_file.BootcampFullJobAfter == 0 ]
@@ -60,26 +59,10 @@ plt.legend()
 plt.show()
 
 
-
-
 var = [len(JobYes[JobYes.Age == i]) - len(JobNo[JobNo.Age == i]) for i in range(16, 60)]
 x = range(16, 60)  
 y = var
-"""
-fig = plt.figure(figsize=(8,8))
-plt.plot(x, y, 'go')
-plt.xlabel('Age')
-plt.ylabel('Net Employment Difference (count)')
-plt.title('Employement Discrepencies')
-plt.xticks(x)
-plt.xscale('linear')
-ax = fig.add_subplot(1, 1, 1)
-ax.spines['bottom'].set_position('zero')
-plt.vlines(x, [0], y)           
-ax.xaxis.set_ticks(np.arange(15, 65, 5))
-plt.xlabel('Age', horizontalalignment='center', verticalalignment='center', x=1.05)
-plt.show()
-"""
+
 nurator = var
 derator = [len(JobYes[JobYes.Age == i]) + len(JobNo[JobNo.Age == i]) for i in range(16, 60)]
 
