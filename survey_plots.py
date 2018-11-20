@@ -41,12 +41,11 @@ RecNoJobNo = data_file[data_file.BootcampRecommend == 0][data_file.BootcampFullJ
 
 
 
-var = [len(JobYes[JobYes.Age == i]) - len(JobNo[JobNo.Age == i]) for i in range(16, 60)]
-x = range(16, 60)  
-y = var
+yvar = [len(JobYes[JobYes.Age == i]) - len(JobNo[JobNo.Age == i]) for i in range(16, 60)]
+x = range(16, 60)
 
 fig = plt.figure(figsize=(8,8))
-plt.plot(x, y, 'go')
+plt.plot(x, yvar, 'go')
 plt.xlabel('Age')
 plt.ylabel('Net Employment Difference (count)')
 plt.title('Employement Discrepencies')
@@ -54,14 +53,14 @@ plt.xticks(x)
 plt.xscale('linear')
 ax = fig.add_subplot(1, 1, 1)
 ax.spines['bottom'].set_position('zero')
-plt.vlines(x, [0], y)           
+plt.vlines(x, [0], yvar)           
 ax.xaxis.set_ticks(np.arange(15, 65, 5))
 plt.xlabel('Age', horizontalalignment='center', verticalalignment='center', x=1.05)
 plt.show()
 
 
 
-nurator = var
+nurator = yvar
 derator = [len(JobYes[JobYes.Age == i]) + len(JobNo[JobNo.Age == i]) for i in range(16, 60)]
 
 bananasplit = []
