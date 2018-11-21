@@ -1,6 +1,6 @@
 # [What factors affect employment after bootcamp completion?](https://www.kaggle.com/chessybo/bootcamp-success-vs-age)
 
-Do you use any free "learn to code" website to teach yourself programming? Clay used publicly available [survey data](https://github.com/freeCodeCamp/2016-new-coder-survey) taken by [FreeCodeCamp](https://www.freecodecamp.org/), to understand the demographic of self-taught coders.
+Do you use any free "learn to code" [website](https://medium.freecodecamp.org/we-just-launched-the-biggest-ever-survey-of-people-learning-to-code-cac81dadf1ea) to teach yourself programming? Clay used publicly available [survey data](https://github.com/freeCodeCamp/2016-new-coder-survey) taken by [FreeCodeCamp](https://www.freecodecamp.org/), to understand the demographic of self-taught coders.
 
 ## Data Analysis Insights
 - an awnser to [issue #6](https://github.com/freeCodeCamp/2016-new-coder-survey/issues/36), "What factors affect employment after bootcamp completion?"
@@ -11,7 +11,7 @@ Do you use any free "learn to code" website to teach yourself programming? Clay 
 I demonstrate that older applicants are decreasingly likely to get a job after bootcamp. Looking for factors that correlate with no job after bootcamp. These factors should increase with age so we can discern causality.
 
 
-<h2> About the Data </h2>
+## About the Data
 The [survey](https://twitter.com/FreeCodeCamp/status/714930182721679360) was conducted anonymously and [published on the web](https://medium.freecodecamp.org/we-just-launched-the-biggest-ever-survey-of-people-learning-to-code-cac81dadf1ea) and promoted via social media from March 28 through May 2, 2016, targeting people who are relatively new to programming.
 
 ## Relevant Recent Data
