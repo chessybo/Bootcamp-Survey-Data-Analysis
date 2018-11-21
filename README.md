@@ -1,12 +1,12 @@
 # [What factors affect employment after bootcamp completion?](https://www.kaggle.com/chessybo/bootcamp-success-vs-age)
 
-Do you use any free "learn to code" [website](https://medium.freecodecamp.org/we-just-launched-the-biggest-ever-survey-of-people-learning-to-code-cac81dadf1ea) to teach yourself programming? Clay used publicly available [survey data](https://github.com/freeCodeCamp/2016-new-coder-survey) taken by [FreeCodeCamp](https://www.freecodecamp.org/), to understand the demographic of self-taught coders.
+Do you use any free "learn to code" website to teach yourself programming? Clay used publicly available [survey data](https://github.com/freeCodeCamp/2016-new-coder-survey) taken by [FreeCodeCamp](https://www.freecodecamp.org/), to understand the demographic of self-taught coders.
 
 ## Data Analysis Insights
 - an awnser to [issue #6](https://github.com/freeCodeCamp/2016-new-coder-survey/issues/36), "What factors affect employment after bootcamp completion?"
   - I [demonstrate](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/survey_plots.py) that older applicants are [decreasingly likely](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/bootcamp_job_normed.png) to get a job after bootcamp.
 - how post bootcamp employment status after coding bootcamp affects whether a participant will reccomend doing a coding bootcamp.
-  - I [demonstrate](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/age_sentiment.py) theres [no correlation](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/age_sentiment_norm.png)
+  - I used SQL (sqllite3) to [demonstrate](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/age_sentiment.py) theres [no correlation](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/age_sentiment_norm.png)
 - how does attending coding events correlate with employment status?
 
 
