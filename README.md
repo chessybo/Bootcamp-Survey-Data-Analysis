@@ -6,7 +6,7 @@ Do you use any free "learn to code" website to teach yourself programming? Clay 
 ## Data Analysis Insights
 - an awnser to [ssue #6](ttps://github.com/freeCodeCamp/2016-new-coder-survey/issues/36), "hat factors affect employment after bootcamp completion?"
 - how post bootcamp employment status after coding bootcamp affects whether a participant will reccomend doing a coding bootcamp.
-
+- how does attending coding events correlate with employment status?
 <h2> About the Data </h2>
 
 The survey was conducted anonymously and published on the web and promoted via social media from March 28 through May 2, 2016, targeting people who are relatively new to programming.
