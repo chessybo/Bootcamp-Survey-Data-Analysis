@@ -3,11 +3,12 @@
 Do you use any free "learn to code" website to teach yourself programming? Clay used publicly available [survey data](https://github.com/freeCodeCamp/2016-new-coder-survey) taken by [FreeCodeCamp](https://www.freecodecamp.org/), to understand the demographic of self-taught coders.
 
 ## Data Analysis Insights
-- an awnser to [issue #6](https://github.com/freeCodeCamp/2016-new-coder-survey/issues/36), "What factors affect employment after bootcamp completion?"
+- A contribution to [issue #6](https://github.com/freeCodeCamp/2016-new-coder-survey/issues/36), "What factors affect employment after bootcamp completion?"
   - I [demonstrate](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/survey_plots.py) that older applicants are [decreasingly likely](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/bootcamp_job_normed.png) to get a job after bootcamp.
-- how post bootcamp employment status after coding bootcamp affects whether a participant will reccomend doing a coding bootcamp.
-  - I used SQL (sqllite3) to [demonstrate](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/age_sentiment.py) theres [no correlation](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/age_sentiment_norm.png)
-- how does attending coding events correlate with employment status?
+- How post bootcamp employment status after coding bootcamp affects whether a participant will reccomend doing a coding bootcamp.
+  - I used SQL (sqllite3) to [demonstrate](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/age_sentiment.py) there's [no correlation](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/age_sentiment_norm.png)
+- How does attending coding events correlate with employment status?
+  - I did a "sentiment analysis" of keywords in a free response survey answers.
 
 
 I demonstrate that older applicants are decreasingly likely to get a job after bootcamp. Looking for factors that correlate with no job after bootcamp. These factors should increase with age so we can discern causality.
