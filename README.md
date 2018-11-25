@@ -8,7 +8,7 @@ Do you use any free "learn to code" website to teach yourself programming? Clay 
 - How post bootcamp employment status after coding bootcamp affects whether a participant will reccomend doing a coding bootcamp.
   - predictably, those who get a job post bootcamp are [more likely](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/jobreccomend.png) to reccomend doing a bootcamp. I used SQL (sqllite3) to [demonstrate](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/post%20bootcamp%20employment%20status%20vs%20bootcamp%20reccomendation.py) there's [no correlation](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/age_sentiment_norm.png) between age and likelyhood of reccomending
 - How does attending coding events correlate with employment status?
-  - I did a "sentiment analysis" of keywords in a free response survey answers.
+  - I did a ["sentiment analysis"](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/survey_analysis_(attend%20coding%20events).py) of keywords in a free response survey answers.
 
 
 I demonstrate that older applicants are decreasingly likely to get a job after bootcamp. Looking for factors that correlate with no job after bootcamp. These factors should increase with age so we can discern causality.
