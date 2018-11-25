@@ -11,9 +11,6 @@ Do you use any free "learn to code" website to teach yourself programming? Clay 
   - I did a ["sentiment analysis"](https://github.com/chessybo/Bootcamp-Survey-Data-Analysis/blob/master/survey_analysis_(attend%20coding%20events).py) of keywords in a free response survey answers.
 
 
-I demonstrate that older applicants are decreasingly likely to get a job after bootcamp. Looking for factors that correlate with no job after bootcamp. These factors should increase with age so we can discern causality.
-
-
 ## About the Data
 The [survey](https://twitter.com/FreeCodeCamp/status/714930182721679360) was conducted anonymously and [published on the web](https://medium.freecodecamp.org/we-just-launched-the-biggest-ever-survey-of-people-learning-to-code-cac81dadf1ea) and promoted via social media from March 28 through May 2, 2016, targeting people who are relatively new to programming.
 
